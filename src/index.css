@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;750&family=Playfair+Display:ital,wght@1,400;1,600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Helvetica Neue', Arial, ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-serif: "Georgia", Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Overrides for Slate classes to coerce light/dark modes seamlessly into Sophisticated Dark theme values */
+  --color-slate-50: #09090b;
+  --color-slate-100: #18181b;
+  --color-slate-150: #222225;
+  --color-slate-200: #27272a;
+  --color-slate-300: #3f3f46;
+  --color-slate-400: #71717a;
+  --color-slate-500: #a1a1aa;
+  --color-slate-600: #d4d4d8;
+  --color-slate-705: #27272a;
+  --color-slate-800: #18181b;
+  --color-slate-850: #111113;
+  --color-slate-900: #111113;
+  --color-slate-950: #09090b;
+
+  /* Align active colors to gorgeous sophisticated accent blues per spec */
+  --color-indigo-50: rgba(59, 130, 246, 0.05);
+  --color-indigo-100: rgba(59, 130, 246, 0.15);
+  --color-indigo-200: rgba(59, 130, 246, 0.25);
+  --color-indigo-300: #60a5fa;
+  --color-indigo-400: #60a5fa;
+  --color-indigo-505: rgba(59, 130, 246, 0.1);
+  --color-indigo-500: #3b82f6;
+  --color-indigo-600: #3b82f6;
+  --color-indigo-700: #2563eb;
+  --color-indigo-800: #1d4ed8;
+  --color-indigo-900: #1e3a8a;
+  --color-indigo-950: #0f172a;
+}
+
+/* Custom visual micro-adjustments */
+body {
+  font-family: var(--font-sans);
+  background-color: #09090b;
+  color: #e4e4e7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Classy serif helper - elegant italicized headers */
+.serif {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+/* Sophisticated Dark Nav Item Active Indicator */
+.nav-active-gradient {
+  background: linear-gradient(90deg, rgba(59, 130, 246, 0.1) 0%, transparent 100%);
+  border-right: 3px solid #3b82f6;
+}
+
+/* Priority status pills color mappings */
+.badge-priority-high {
+  background-color: rgba(239, 68, 68, 0.08);
+  color: #ef4444;
+}
+
+.badge-priority-medium {
+  background-color: rgba(245, 158, 11, 0.08);
+  color: #f59e0b;
+}
+
+.badge-priority-low {
+  background-color: rgba(16, 185, 129, 0.08);
+  color: #10b981;
+}
+
+/* Kanban column and element boundaries */
+.glass-panel {
+  background-color: #111113;
+  border: 1px solid #27272a;
+}
+
+.card-panel {
+  background-color: #18181b;
+  border: 1px solid #27272a;
+}
+
+/* Scrollbar beautification */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #09090b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46;
+}

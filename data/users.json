@@ -1,0 +1,11 @@
+[
+  {
+    "_id": "6a100f1f0033ee3689c3b646",
+    "name": "Raj",
+    "email": "raj1234@gmail.com",
+    "password": "$2b$10$x3rRvlKcWy929PepP9E6f.dIcl4Uq6vDnPv0gyxh7ziMGuaGuSSJm",
+    "role": "member",
+    "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Raj",
+    "createdAt": "2026-05-22T08:09:03.200Z"
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "name": "TaskFlow",
+  "description": "A complete MERN Team Task Management system featuring multi-roles, collaborative projects, dynamic task boards, and detailed live charts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
